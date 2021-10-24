@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background-color: #c6e0ec;
+}
+p {
+  text-align: justify;
+}
+
+blockquote {
+  font-style: oblique;
+}
+
+pre {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: white;
+}
+
+address {
+  text-align: right;
+  font-family: serif;
+  font-style: normal;
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  background-color: #4099bf;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #79b8d2;
+}
