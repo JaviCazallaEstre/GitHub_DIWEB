@@ -1,0 +1,28 @@
+body{
+    background-color: #2D8652;
+    font-family: sans-serif;
+}
+p{
+    font-size: 1.5em;
+}
+h1{
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.amarillo{
+    color: #FFCE81;
+}
+.amarillo2{
+    color: #FF9F2E;
+    font-family: monospace;
+    font-size: 2em;
+}
+.blanco{
+    font-family: serif;
+    font-style: oblique;
+    color: white;
+}
+.rojo{
+    color: #E6194D;
+    font-family: cursive;
+}
