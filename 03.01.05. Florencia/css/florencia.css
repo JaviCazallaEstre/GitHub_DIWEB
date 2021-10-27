@@ -1,6 +1,8 @@
 body{
     font-family: sans-serif;
     background-color: #C4C6B9;
+    font-size: 1.5em;
+    text-align: justify;
 }
 strong{
     font-style: oblique;
@@ -8,4 +10,29 @@ strong{
 h2{
     background-color: #5D6336;
     color: white;
+    clear: both;
+}
+h1{
+    color:#161669;
+    font-weight: 900%;
+    letter-spacing: 50px;
+    text-align: right;
+    text-transform: uppercase;
+}
+p.centro{
+    text-align: center;
+}
+img.izquierda{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+address{
+    clear: both;
+    font-size: 80%;
+}
+img.derecha{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
