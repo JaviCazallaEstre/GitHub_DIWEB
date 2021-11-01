@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "playball";
+    src: url("../fuentes/playball.woff");
+  }
+  
+  body {
+    margin: 0;
+    background-color: white;
+    font-family: "playball", sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+  
+  header {
+    background-color: #E64D19;
+    color: white;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 10px 10px 40px;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+  
+  main {
+    display: block;
+    border-left:#FF6633 5px solid;
+    border-right: #FF6633 5px solid;
+    margin: 0 5%;
+    padding: 0 5%;
+  }
+  
+  article {
+    clear: both;
+  }
+  
+  article.siglo {
+    margin: 50px 0;
+    padding-bottom: 20px;
+    background-color: #FFD9CC;
+  }
+  
+   h2, h3 {
+    margin: 0;
+    padding-left: 10px;
+    background-color: #FF6633;
+    color: white;
+  }
+  
+  article article {
+    overflow: auto;
+    margin: 30px 10%;
+    padding-bottom: 30px;
+    background-color: white;
+  }
+  
+  article article p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  aside {
+    float: right;
+    border-left:#FF6633 5px solid;
+    margin: 10px 0 10px 30px;
+    padding: 10px 20px;
+  }
+  
+  aside p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #E64D19;
+    color: white;
+  }
+  
+  footer p {
+    margin: 0;
+    padding: 5px;
+  }

@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch);
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+
+body {
+  background-color: #C7C8D1;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+h1 {
+  margin: 0;
+  color: #575A75;
+  font-family: "Cabin Sketch";
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-family: "Gabriela";
+  font-size: 2rem;
+}
+
+div {
+  padding: 2px 10px;
+}
+
+div p {
+  margin: 2px;
+}
+
+div.vida {
+  margin: 0 10px;
+}
+
+article.futbol {
+  border: #CC4400 3px solid;
+  border-radius: 0 20px 20px 20px;
+  margin: 10px 50px;
+  background-color: #FFA666;
+}
+
+article.futbol h2 {
+  border-top-right-radius: 16px;
+  background-color: #CC5500;
+}
+
+article.futbol div.datos {
+  background-color: #DB5B00 ;
+}
+
+article.literatura {
+  border: #E600E6 3px solid;
+  border-radius: 20px 0;
+  margin: 10px 50px;
+  background-color: #FFCCFF;
+}
+
+article.literatura h2 {
+  border-top-left-radius: 16px;
+  background-color: #E600E6;
+}
+
+article.literatura div.datos {
+  background-color: #FF80FF;
+}
