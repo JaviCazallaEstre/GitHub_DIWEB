@@ -1,0 +1,54 @@
+@font-face {
+    font-family: slackey;
+    src: url(../fonts/slackey.woff2);
+}
+body{
+    background: url("../img/violeta.png") repeat-y top left,
+    url("../img/violeta.png") repeat-y right top;
+    background-size: 150px;
+    background-color: #a4c6ec;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h1{
+    font-family: slackey;
+    text-align: center;
+    color: #5c59a4;
+    text-shadow: 3px -6px 2px white;
+    border-bottom: solid #5c59a4;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.inicio{
+    background-color: white;
+    height: 220px;
+}
+.inicio img{
+    padding: 6px;
+    border:solid black;
+    float: left;
+}
+.inicio p{
+    text-align: justify;
+    margin: 10px;
+}
+.estilo1{
+    background-color: orangered;
+    color:white;
+    width: 150px;
+    border: white 5px dashed;
+    margin-left: 50px;
+    height: 150px;
+}
+.estilo2{
+    background-image: url(../img/verde.png);
+    width: 150px;
+    margin-left: 50px;
+    border: green 5px solid;
+    height: 150px;
+}
+article{
+    display: inline-table;
+    width: 360px;
+    padding-top: 9px;
+}
