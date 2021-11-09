@@ -41,6 +41,52 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+	font-family: sans-serif;
+}
 h1{
-    
+    font-weight: bold;
+	font-size: 2em;
+	margin-left: 30px;
+	padding-bottom: 30px;
+}
+h2:first-of-type{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: red;
+	margin-left: 30px;
+	padding-bottom: 20px;
+}
+h2:last-of-type{
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-left: 30px;
+	padding-bottom: 20px;
+}
+p{
+	margin-left: 20px;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+h2:last-of-type::first-letter{
+	color: red;
+}
+ul{
+	margin-left: 60px;
+}
+ul li{
+	padding: 3px;
+}
+ul li:nth-child(3){
+	color: greenyellow;
+}
+ul li:nth-child(odd):hover::before{
+	font-weight: bold;
+	color: black;
+	content: "Somos elementos impares";
+}
+ul li:nth-child(even):hover::after{
+	font-weight: bold;
+	color: black;
+	content: "Somos elementos pares";
 }
