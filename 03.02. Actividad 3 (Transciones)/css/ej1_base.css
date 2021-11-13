@@ -1,0 +1,105 @@
+.container{
+    position: relative;
+}
+.caja{
+  width: 180px;
+  height: 180px;
+  background-color: #30B037;
+  color: #FFF;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+.caja1{
+  background-color: #C0392B;
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+.caja1:hover{
+  background-color: blue;
+}
+.caja2{
+  background-color: #9B59B6;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+.caja2:hover{
+  font-size: 28px;
+}
+.caja3{
+  background-color: #2980B9;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+.caja3:hover{
+  color:black;
+}
+.caja4{
+  background-color: #3498DB;
+  transition-property: line-height;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.caja4:hover{
+  line-height: 150px;
+}
+.caja5{
+  background-color: #17A589;
+  transition-property: border-radius;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.caja5:hover{
+  border-radius: 30px;
+}
+.caja6{
+  background-color: #F1C40F;
+  transition-property: box-shadow;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.caja6:hover{
+  box-shadow: gray 5px 5px 10px;
+}
+.caja7{
+  background-color: #E67E22;
+  transition-property: opacity;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.caja7:hover{
+  opacity: 50%;
+}
+.caja8{
+  background-color: #95A5A6;
+  transition-property: border;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.caja8:hover{
+  border: black solid;
+}
+.caja9{
+  background-color: #2C3E50;
+  transition-property: margin;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.caja9:hover{
+  margin: 3em;
+}
+.caja10{
+  background-color: black;
+  transition-property: padding;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+.caja10:hover{
+  padding: 3em;
+}
