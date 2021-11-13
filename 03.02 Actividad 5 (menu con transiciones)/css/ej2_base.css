@@ -38,7 +38,7 @@ a.contacto {
   border-top: solid #9600b4;
   transition-property: background-color;
   transition-duration: 1s;
-  transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+  transition-timing-function: linear;
 }
 a.contacto:hover{
     background-color: #9600b4;
