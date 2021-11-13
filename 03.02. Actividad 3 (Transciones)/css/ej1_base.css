@@ -1,11 +1,11 @@
-.container{
-    position: relative;
+.container {
+  position: relative;
 }
-.caja{
+.caja {
   width: 180px;
   height: 180px;
-  background-color: #30B037;
-  color: #FFF;
+  background-color: #30b037;
+  color: #fff;
   text-align: center;
   line-height: 180px;
   margin: 15px;
@@ -13,93 +13,93 @@
   font-size: 18px;
   font-family: Arial;
 }
-.caja1{
-  background-color: #C0392B;
+.caja1 {
+  background-color: #c0392b;
   transition-property: background-color;
   transition-duration: 2s;
   transition-timing-function: linear;
 }
-.caja1:hover{
+.caja1:hover {
   background-color: blue;
 }
-.caja2{
-  background-color: #9B59B6;
+.caja2 {
+  background-color: #9b59b6;
   transition-property: font-size;
   transition-duration: 2s;
   transition-timing-function: linear;
 }
-.caja2:hover{
+.caja2:hover {
   font-size: 28px;
 }
-.caja3{
-  background-color: #2980B9;
+.caja3 {
+  background-color: #2980b9;
   transition-property: color;
   transition-duration: 2s;
   transition-timing-function: linear;
 }
-.caja3:hover{
-  color:black;
+.caja3:hover {
+  color: black;
 }
-.caja4{
-  background-color: #3498DB;
+.caja4 {
+  background-color: #3498db;
   transition-property: line-height;
   transition-duration: 2s;
   transition-timing-function: ease;
 }
-.caja4:hover{
+.caja4:hover {
   line-height: 150px;
 }
-.caja5{
-  background-color: #17A589;
+.caja5 {
+  background-color: #17a589;
   transition-property: border-radius;
   transition-duration: 2s;
   transition-timing-function: ease;
 }
-.caja5:hover{
+.caja5:hover {
   border-radius: 30px;
 }
-.caja6{
-  background-color: #F1C40F;
+.caja6 {
+  background-color: #f1c40f;
   transition-property: box-shadow;
   transition-duration: 2s;
   transition-timing-function: ease;
 }
-.caja6:hover{
+.caja6:hover {
   box-shadow: gray 5px 5px 10px;
 }
-.caja7{
-  background-color: #E67E22;
+.caja7 {
+  background-color: #e67e22;
   transition-property: opacity;
   transition-duration: 2s;
   transition-timing-function: ease;
 }
-.caja7:hover{
+.caja7:hover {
   opacity: 50%;
 }
-.caja8{
-  background-color: #95A5A6;
+.caja8 {
+  background-color: #95a5a6;
   transition-property: border;
   transition-duration: 2s;
   transition-timing-function: ease;
 }
-.caja8:hover{
+.caja8:hover {
   border: black solid;
 }
-.caja9{
-  background-color: #2C3E50;
+.caja9 {
+  background-color: #2c3e50;
   transition-property: margin;
   transition-duration: 2s;
   transition-timing-function: ease;
 }
-.caja9:hover{
+.caja9:hover {
   margin: 3em;
 }
-.caja10{
+.caja10 {
   background-color: black;
   transition-property: padding;
   transition-duration: 2s;
   transition-timing-function: ease;
 }
-.caja10:hover{
+.caja10:hover {
   padding: 3em;
 }

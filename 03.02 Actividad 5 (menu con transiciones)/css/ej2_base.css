@@ -1,0 +1,45 @@
+li {
+  margin-top: 100px;
+  float: left;
+  list-style: none;
+}
+a {
+  padding: 50px;
+  background-color: black;
+}
+a.servicios {
+  border-top: solid #ffc000;
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+a.servicios:hover{
+    background-color: #ffc000;
+}
+a.proyectos {
+  border-top: solid #00a53c;
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+a.proyectos:hover{
+    background-color: #00a53c;
+}
+a.recursos {
+  border-top: solid #b81800;
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+a.recursos:hover{
+    background-color: #b81800;
+}
+a.contacto {
+  border-top: solid #9600b4;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}
+a.contacto:hover{
+    background-color: #9600b4;
+}
