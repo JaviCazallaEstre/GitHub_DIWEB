@@ -1,0 +1,82 @@
+$colorHeader:#444;
+$bgcolorHeader:#eee;
+$sombraHeader:#aaa;
+@keyframes iluminar{
+    from{
+        @include colorTextoFondo;
+    }
+    to{
+        @include colorTextoFondoHover;
+    }
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    padding: 12px 30px;
+    font-size: 1.8em;
+    color:$colorHeader;
+    background-color: $bgcolorHeader;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px $sombraHeader;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    position: absolute;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    >ul{
+        width: 100%;
+        height: 32px;
+        @include colorTextoFondo;
+    }
+    a{
+        @include colorTextoFondo;
+        text-decoration: none;
+        width: 160px;
+        padding: 7px 20px;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+    }
+    a:hover{
+        @include colorTextoFondoHover;
+        @include animaciones(iluminar 0.4s);
+    }
+}
+li{
+    .categoria{
+        float: left;
+        a{
+            @include transiciones(padding 0.4s ease-out);
+        }
+        :hover{
+             a{
+                padding: 10px 20px;
+            }
+            ul.submenu{
+                height: 100px;
+            }
+        }
+    }
+}
+ul.submenu{
+    @include transiciones(height 0.5s ease-out);
+    position: absolute;
+    height: 0px;
+    overflow: hidden;
+}
+footer{
+    @include colorTextoFondo;
+    @include box-sizing(border-box);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+}
