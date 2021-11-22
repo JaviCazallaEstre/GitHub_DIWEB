@@ -1,0 +1,28 @@
+$color:#eee;
+$hover:#fff;
+$bgcolor:#666;
+$bgcolorHover:#888;
+
+@mixin colorTextoFondo {
+    color:$color;
+    background-color: $bgcolor;
+}
+@mixin colorTextoFondoHover {
+    color:$hover;
+    background-color: $bgcolorHover;
+}
+@mixin boxSizing ($parametro) {
+    -webkit-box-sizing: $parametro;
+    -moz-box-sizing: $parametro;
+    box-sizing: $parametro;
+}
+@mixin transiciones ($property, $duration, $timing:linear) {
+    -webkit-transition:$property $duration $timing;
+    -moz-transition:$property $duration $timing;
+    transition:$property $duration $timing;
+}
+@mixin animaciones ($name,$duration,$timing:linear) {
+    -webkit-animation: $name $duration $timing;
+    -moz-animation: $name $duration $timing;
+    animation: $name $duration $timing;
+}
