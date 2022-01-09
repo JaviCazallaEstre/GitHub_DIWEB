@@ -89,27 +89,17 @@ body
     float: right;
     margin: 0 0 10px 10px;
 }
-@media screen and (min-width:1000px){
-    #extras{
-        width: 550px;
-        margin-right: 225px;
-    }
-}
 @media screen and (min-width:480px){
     #container{
-        display: block;
         width: 480px;
     }
     #extras{
-        display: block;
         width: 480px;
     }
     #nav{
-        display: block;
         width: 480px;
     }
     #content{
-        display: block;
         width: 480px;
         margin-left: 0px;
 
@@ -117,5 +107,12 @@ body
     .feature-image{
         display: none;
     }
-
 }
+@media screen and (min-width:1000px){
+    #extras{
+        width: 550px;
+        margin-right: 225px;
+    }
+}
+
+
