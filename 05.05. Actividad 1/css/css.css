@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.parrafo{
+    background-color: #17A2B8;
+    padding: 10%;
+    font-size: 1.2em;
+}
+.parrafo cite{
+    color: #3C4043;
+}
+form{
+  border:1px solid blue;  
+  padding: 4%;
+}
+.formu *{
+    margin-bottom: 0.65%;
+}
+.foto{
+    background-color: #343A40;
+    padding: 1%;
+    color: white;
+}
+.boton{
+    float: right;
+}
